@@ -22,11 +22,13 @@ card.addEventListener('mouseover', function(){
 
 //hope this slows the shit out of the the website.
 
-function slow_fun() {
-    console.log('This funtion will make it slow baby');
+function stackDivs(delay) {
+    for (let i = 0; i < divs.length; i++) {
+        setTimeout(function () {
+            divs[i].style.transform = 'translateY(' + i * 100 + 'px)';
+        }, delay * i);
+    }
 }
-
-// Call myFunction after a 5-second delay
-setTimeout(slow_fun, 2000);
+stackDivs(500);
 
 
