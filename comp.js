@@ -18,13 +18,15 @@ join_butt.addEventListener("mouseover", function(){
 card.addEventListener('mouseover', function(){
     card.classList.add('bounce_img')
 })
+
+
 //hope this slows the shit out of the the website.
 
-function slow(){
-    while(true){
-        console.log("0")
-    }
+function slow_fun() {
+    console.log('This funtion will make it slow baby');
 }
-slow()
+
+// Call myFunction after a 5-second delay
+setTimeout(slow_fun, 5000);
 
 
