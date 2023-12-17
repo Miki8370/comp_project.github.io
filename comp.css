@@ -1,0 +1,145 @@
+*{
+}
+body{
+    background-color: yellow;
+    color: red;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+nav{
+}
+nav li{
+    display: inline;
+    margin: 12px;
+}
+.hero{
+    text-align: center;
+    border: 2px solid black;
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+#hero_head{
+    text-decoration: underline overline;
+    
+}
+.offers{
+    padding-left: 400px;
+}
+.Join_form{
+}
+.join{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    text-align: center;
+}
+.card{
+    width: 320px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+#horrible_head{
+    color: green;
+}
+#horrible_head:hover{
+    cursor: pointer;
+    transform: translateY(-100px);
+    transition-duration: 10000ms;
+}
+#site{
+    color: red;
+}
+
+nav li a:hover{
+    border: 2px solid red;
+    font-size: 70px;
+    background-color: green;
+    color: red;
+}
+.hero:hover{
+    background-color: red;
+    color: yellowgreen;
+}
+.form_sec{
+    border: 2px solid black;
+    max-width: 100%;
+    width: 300px;
+    height: 50vh;
+    text-align: center;
+    margin-bottom: 12px;
+}
+#submit_butt{
+    width: 300px;
+    color: green;
+    cursor: pointer;
+}
+#search_but{
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(0, 255, 200);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+}
+.offers{
+    text-align: center;
+}
+aside{
+    border: 2px solid saddlebrown;
+    margin-bottom: 12px;
+}
+.join{
+    border: 2px solid black;
+    height: 800px;
+    text-align: center;
+    padding-top: 400px;
+}
+#join_butt{
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    color: green;
+    font-size: 30px;
+
+}
+#join_butt:hover{
+    opacity: 0.2;
+}
+.Join_Butt{
+    transform: translateX(-500px);
+}
+.cards img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+@keyframes bounce_img{
+    0%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(150px);
+    }
+
+}
+.bounce_img{
+    animation: bounce_img 2s linear infinite;
+}
+.bounce_img img{
+    width: 300px;
+    height: 300px;
+}
