@@ -27,6 +27,6 @@ function slow_fun() {
 }
 
 // Call myFunction after a 5-second delay
-setTimeout(slow_fun, 5000);
+setTimeout(slow_fun, 2000);
 
 
